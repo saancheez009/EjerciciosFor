@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Ejercicio10 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int num1;
 		int num2;
 		int contador=0;
@@ -18,10 +17,12 @@ public class Ejercicio10 {
 		System.out.println("Por favor introduzca el número hasta el que desea contar");
 		num2=sc.nextInt();
 
-		for (int i=1 ; i<=num2 ; i++) {
+		for (int i=num1 ; i<=num2 ; i++) {
 		
-			System.out.println(contador);
-			contador++;
+			System.out.println(i);
+			
+		}
 	}
-	}
+
 }
+
